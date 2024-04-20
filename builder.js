@@ -72,3 +72,12 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+//     This code snippet initializes an Express.js server to handle HTTP requests.
+//     It includes endpoints for generating AI-generated website content and processing payments via MetaMask.
+//     The /generate-content endpoint accepts a POST request with parameters for content length and language model choice. It then uses the OpenAI API to generate AI content based on the selected language model.
+//     The /process-payment endpoint accepts a POST request with parameters for the payment amount and recipient address. It connects to MetaMask, requests the user to connect their wallet, and then sends the specified amount of Ether to the recipient address.
+//     This code assumes that the OpenAI API key is provided and that MetaMask is installed in the user's browser. It also requires the web3 and openai libraries to be installed in the project.
+//     In a real-world scenario, you would need to implement additional error handling, input validation, and security measures to ensure the reliability and security of the application.
+
+// This code provides a foundation for building a more comprehensive AI website development platform with MetaMask integration and customizable AI content generation capabilities.
